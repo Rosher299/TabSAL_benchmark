@@ -177,6 +177,20 @@ baseline_core.distance(args)
 
 ### Citation
 
+```
+@article{LI2024112438,
+title = {TabSAL: Synthesizing Tabular data with Small agent Assisted Language models},
+journal = {Knowledge-Based Systems},
+volume = {304},
+pages = {112438},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.112438},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124010724},
+author = {Jiale Li and Run Qian and Yandan Tan and Zhixin Li and Luyu Chen and Sen Liu and Jie Wu and Hongfeng Chai},
+keywords = {Data synthesis, Natural language processing, Machine learning, Data generation},
+abstract = {Tabular data are widely used in machine-learning tasks because of their prevalence in various fields; however, the potential risks of data breaches in tabular data and privacy protection regulations render such data almost unavailable. Tabular data generation methods alleviate data unavailability by synthesizing privacy-free data, and generating data using language models is a novel innovation. Language models can synthesize high-quality datasets by learning knowledge from nondestructive information and recognizing the semantics of table columns. However, when current language models function as generators, their encoding methods are hindered by complicated decoding processes, and the limited predictive ability of language models restricts their generative capability. To this end, we propose an encoding method based on interactive data structures such as JavaScript Object Notation for converting tabular data. We design TabSAL, which is a pluggable tabular data generation framework with small agent assisted language models, to boost the predictive capability, resulting in high-quality synthetic datasets with a much lower computational resource cost. In addition, a benchmark that integrates eight datasets, three methods, and three assessment directions has been issued, which indicates that TabSAL surpasses the state of the art by up to 60%.}
+}
+```
 
 
-### Contact
